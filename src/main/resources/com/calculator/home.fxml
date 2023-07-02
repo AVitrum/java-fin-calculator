@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.calculator.controllers.HomeController">
+   <left>
+      <VBox style="-fx-background-color: #696969;">
+         <fx:include source="menu.fxml" />
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane layoutX="200.0" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #F8F9F9;">
+         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="230.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="379.0" style="-fx-border-color: black; -fx-border-radius: 4000; -fx-background-color: #F2F3F4;" text="Welcome to our calculator!" textAlignment="CENTER" AnchorPane.leftAnchor="230.0" AnchorPane.rightAnchor="229.0">
+            <font>
+               <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="611.0" prefHeight="44.0" prefWidth="842.0" style="-fx-background-color: BDC3C7;" text="Having problems? Write to: Email: almashi.andrii@student.uzhnu.edu.ua" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <font>
+               <Font name="Arial Rounded MT Bold" size="16.0" />
+            </font>
+         </Label>
+         <Label fx:id="text_label" alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="172.0" prefHeight="178.0" prefWidth="732.0" style="-fx-border-color: black;" text="This calculator will help you calculate the main indicators of your business and allow you to assess its condition. It also gives an opportunity to see the dynamics of some indicators and the difference between periods. If you have several companies for which you need to calculate indicators, then it is enough to create another account. If you have any advice, write to the mail. On the left you can see a menu with all the functions of the calculator. The calculator also provides an opportunity to download data from a certain period into a txt file, or import data from a txt file that is formatted accordingly." textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="53.0">
+            <font>
+               <Font name="Arial Rounded MT Bold" size="16.0" />
+            </font>
+         </Label>
+      </AnchorPane>
+   </center>
+</BorderPane>

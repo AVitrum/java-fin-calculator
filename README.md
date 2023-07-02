@@ -1,1 +1,1 @@
-# java-fin-calculator
+# Calculator
